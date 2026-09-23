@@ -1,0 +1,22 @@
+site_url: https://blizzard-vex.github.io/my-docs/
+site_name: Notability
+theme:
+  name: material
+  palette:
+    # 浅色模式
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换深色模式
+    # 深色模式
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换浅色模式
+nav:
+  - 首页: index.md
+  - 笔记一: note1.md
+plugins:
+  - search
